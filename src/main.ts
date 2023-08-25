@@ -9,7 +9,7 @@ const createWindow = () => {
       preload: path.resolve(__dirname, "preload.js"),
     },
   });
-
+  mainWindow.setPosition(1040,10);
   mainWindow.loadFile("dist/index.html");
   // mainWindow.webContents.openDevTools({ mode: "detach" });
 };
