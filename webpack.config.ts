@@ -1,6 +1,4 @@
 import { Configuration } from "webpack";
-import HtmlWebpackPlugin from "html-webpack-plugin";
-import MiniCssExtractPlugin from "mini-css-extract-plugin";
 
 const isDev = process.env.NODE_ENV === "development";
 
@@ -21,10 +19,6 @@ const common: Configuration = {
         test: /\.tsx?$/,
         exclude: /node_modules/,
         loader: "ts-loader",
-      },
-      {
-        test: /\.css$/,
-        use: [MiniCssExtractPlugin.loader, "css-loader"],
       },
       {
         test: /\.(ico|png|svg|eot|woff?2?)$/,
@@ -52,19 +46,4 @@ const preload: Configuration = {
   },
 };
 
-const renderer: Configuration = {
-  ...common,
-  target: "web",
-  entry: {
-    app: "./src/render/index.tsx",
-  },
-  plugins: [
-    new MiniCssExtractPlugin(),
-    new HtmlWebpackPlugin({
-      inject: "body",
-      template: "./src/render/index.html",
-    }),
-  ],
-};
-
-export default [main, preload, renderer];
+export default [main, preload];

@@ -6,7 +6,6 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "lib": ["DOM", "ESNext"],
-    "jsx": "react-jsx",
     "strict": true
   },
   "include": ["src"],

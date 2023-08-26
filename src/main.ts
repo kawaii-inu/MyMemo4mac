@@ -10,7 +10,7 @@ const createWindow = () => {
         },
     });
     mainWindow.setPosition(1040, 10);
-    mainWindow.loadFile("dist/index.html");
+    mainWindow.loadURL("http://localhost:3000/");
 };
 
 app.whenReady().then(() => {
