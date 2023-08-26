@@ -1,5 +1,6 @@
 ### 画面イメージ
 ![](gamen.jpeg)
+- 【変更】Addボタンは右上にする
 ### コンポーネント
 ![](componets-bunkatsu.png)
 ### 参考資料
