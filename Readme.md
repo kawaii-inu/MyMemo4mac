@@ -1,3 +1,5 @@
+### これはなに
+- 自作のReactアプリのWebページをデスクトップで開く
 ### 参考資料
 #### 環境構築とか基本的な解説とか
 - https://zenn.dev/sprout2000/articles/5d7b350c2e85bc
