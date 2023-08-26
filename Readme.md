@@ -1,9 +1,3 @@
-### 画面イメージ
-![](gamen.jpeg)
-- 【変更】Addボタンは右上にする
-- 【追加】Addボタンの左隣にリロードボタン
-### コンポーネント
-![](componets-bunkatsu.png)
 ### 参考資料
 #### 環境構築とか基本的な解説とか
 - https://zenn.dev/sprout2000/articles/5d7b350c2e85bc
