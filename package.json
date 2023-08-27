@@ -1,13 +1,13 @@
 {
-	"name": "MemoOnMac",
-	"description": "MemoOnMac",
+	"name": "MyMemo4mac",
+	"description": "MyMemo4mac",
 	"version": "0.1.0",
 	"license": "MIT",
 	"author": {
 		"name": "inu"
 	},
 	"repository": {
-		"url": "https://github.com/inu/MemoOnMac.git"
+		"url": "https://github.com/kawaii-inu/MyMemo4mac"
 	},
 	"main": "dist/main.js",
 	"scripts": {

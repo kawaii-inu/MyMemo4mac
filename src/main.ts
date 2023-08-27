@@ -10,7 +10,7 @@ const createWindow = () => {
         },
     });
     mainWindow.setPosition(1040, 10);
-    mainWindow.loadURL("http://localhost:3000/");
+    mainWindow.loadURL("https://kawaii-inu.github.io/MyMemo/");
 };
 
 app.whenReady().then(() => {
