@@ -112,7 +112,8 @@ const createWindow = () => {
         },
     });
     mainWindow.setPosition(1040, 10);
-    mainWindow.loadURL("https://kawaii-inu.github.io/MyMemo/");
+    mainWindow.loadURL("http://localhost:3000/MyMemo");
+    //mainWindow.loadURL("https://kawaii-inu.github.io/MyMemo/");
 };
 electron__WEBPACK_IMPORTED_MODULE_1__.app.whenReady().then(() => {
     const img = electron__WEBPACK_IMPORTED_MODULE_1__.nativeImage.createFromPath("src/assets/tray24x24.png");

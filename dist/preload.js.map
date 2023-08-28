@@ -1,1 +1,1 @@
-{"version":3,"file":"preload.js","mappings":";;;;;;AAAa;AACb","sources":["webpack://MemoOnMac/./src/preload.ts"],"sourcesContent":["\"use strict\";\nconsole.log(\"preloaded!\");\n"],"names":[],"sourceRoot":""}
+{"version":3,"file":"preload.js","mappings":";;;;;;AAAa;AACb","sources":["webpack://MyMemo4mac/./src/preload.ts"],"sourcesContent":["\"use strict\";\nconsole.log(\"preloaded!\");\n"],"names":[],"sourceRoot":""}
