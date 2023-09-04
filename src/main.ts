@@ -10,8 +10,8 @@ const createWindow = () => {
         },
     });
     mainWindow.setPosition(1040, 10);
-    mainWindow.loadURL("http://localhost:3000/MyMemo");
-    //mainWindow.loadURL("https://kawaii-inu.github.io/MyMemo/");
+    //mainWindow.loadURL("http://localhost:3000/MyMemo");
+    mainWindow.loadURL("https://kawaii-inu.github.io/MyMemo/");
 };
 
 app.whenReady().then(() => {
